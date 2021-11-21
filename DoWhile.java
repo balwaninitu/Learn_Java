@@ -13,9 +13,10 @@ class DoWhile{
 		int n=1;
 		do
 		{
-			System.out.print(n);
+			System.out.print(n+ " ");
+			++n;
 		}
-		while(n<0);
+		while(n<=10);
 	}
 }
 
