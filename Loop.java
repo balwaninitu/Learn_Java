@@ -6,20 +6,21 @@ iterations in advanced
 It is also known as entry control loop
 */
 
-import java.util.Scanner;
+//import java.util.Scanner;
 
 class Loop{
 
 public static void main(String[] args) {
 
-	int n;
-	System.out.print("Enter value for condition\n");
-	Scanner r=new Scanner(System.in);
-	n=r.nextInt();
+	int n=1;
+	//System.out.print("Enter value for condition\n");
+	//Scanner r=new Scanner(System.in);
+	//n=r.nextInt();
 
-	while(n>=0)
+	while(n<=10)
 	{
-		System.out.print("Learn Coding");
+		System.out.print("Learn Coding\n");
+		++n;
 	}
 
 	
